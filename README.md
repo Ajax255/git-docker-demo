@@ -1,8 +1,8 @@
-# Hackathon Guide: Docker and Git Basics
+# Hackathon Guide: Git and Docker Basics
 
 ## Overview
 
-This project serves as a hands-on guide to understanding Docker and Git basics, aimed at beginner to intermediate users. It demonstrates how to create, containerize, and share a simple Node.js application while introducing Git for version control.
+This project serves as a hands-on guide to understanding Git and Docker basics, aimed at beginner to intermediate users. It demonstrates how to create, containerize, and share a simple Node.js application while introducing Git for version control.
 
 ---
 
@@ -100,23 +100,19 @@ CMD ["node", "index.js"]
 
 ### 5. Use Git for Version Control
 
-1. Initialize a Git repository:
-   ```bash
-   git init
-   ```
-2. Stage your files:
+1. Stage your files:
    ```bash
    git add .
    ```
-3. Commit your changes:
+2. Commit your changes:
    ```bash
    git commit -m "Initial commit"
    ```
-4. Add your GitLab repository:
+3. Add your GitLab repository:
    ```bash
    git remote add origin https://gitlab.com/<your-username>/<your-repo-name>.git
    ```
-5. Push your project:
+4. Push your project:
    ```bash
    git push -u origin main
    ```
@@ -139,6 +135,7 @@ CMD ["node", "index.js"]
 - [Docker Hub](https://hub.docker.com)
 - [Node.js Documentation](https://nodejs.org/)
 - [GitLab Documentation](https://docs.gitlab.com/)
+- [Git Moments](https://dangitgit.com/)
 
 ---
 
